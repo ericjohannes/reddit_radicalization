@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+# should open subreddits file and create new file
+f = open('subreddits_basic.csv', 'r')
+newf = open('The_Donald.csv', 'w+')
+
+# loop through subreddits file, find The_Donald and write that line ot a file
+for line in f:
+    if 'The_Donald' in line:
+        print(line)
+        newf.write(line)
+        break
+
+# be sure to close the files
+f.close()
+newf.close()

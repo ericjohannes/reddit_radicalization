@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+# should open subreddits file and create new file we append to
+f = open('subreddits_basic.csv', 'r')
+newf = open('political_subs.csv', 'a+')
+
+# loop through subreddits file, find politic in name and write that line ot a file
+# this is a test because we'll use this method to find specific subreddits later
+for line in f:
+    if 'politic' in line:
+        print(line)
+        newf.write(line)
+
+# be sure to close the files
+f.close()
+newf.close()

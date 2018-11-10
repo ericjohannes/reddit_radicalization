@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+subreddit_id = 't5_38unr' # for r/The_Donald
+filename = '/l/research/social-media-mining/public/RC_2015-01-random-sample-1000000.jsonlines'
+
+# should open subreddits file and create new file we append to
+f = open(filename, 'r')
+#newf = open('The_Donald_comments.json', 'a+')
+
+# loop through comments file, find comments containing subreddit_id and write that line to a file
+#for line in f:
+#    if subreddit_id in line:
+#        newf.write(line)
+
+# be sure to close the files
+f.close()
+#newf.close()
