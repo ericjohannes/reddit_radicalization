@@ -5,8 +5,10 @@
 # sys.path.insert(0, 'path/to/dir/with/this/file')
 # path can be like '../lib/'
 # import reddit_corpus
+import lzma
 
-def filter_posts(subreddit_id, inputfile, outputfile):
+
+def filter_posts(subreddit_id, inputfile, outputfile, filetype):
 	"""
 	Fast way to filter large reddit corpus data for posts on specific
 	subreddit. Reads input file. for each line, if if lines contains subreddit_id,
@@ -17,7 +19,11 @@ def filter_posts(subreddit_id, inputfile, outputfile):
 	outputfile = name of file to which filtered comments are saved
 	"""
 	# should open subreddits file and create new file we append to
-	f = open(inputfile, 'r')
+	if filetype is '.xz':
+		f = lzma.open(inputfile, mode='rt')
+	else:
+		f = open(inputfile, 'r')
+	
 	newf = open(outputfile, 'a+')
 
 	# loop through comments file, find comments containing subreddit_id and write that line to a file
