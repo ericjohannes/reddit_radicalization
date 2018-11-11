@@ -1,20 +1,18 @@
-#subreddit_id = 't5_38unr' # for r/The_Donald
 
-subreddit_id = 't5_2cneq' # r/Politics
-filename = '/l/research/social-media-mining/public/RC_2015-01-random-sample-1000000.jsonlines'
+import sys
+# add my lib dir to the sys path
+sys.path.insert(0, '../lib/')
+# import my functions
+import reddit_corpus
 
-# should open subreddits file and create new file we append to
-f = open(filename, 'r')
-# newf = open('data/The_Donald_comments.json', 'a+')
-newf = open('data/politics.json', 'a+')
+subreddit_id = 't5_38unr' # for r/The_Donald
 
+folder = '/l/research/social-media-mining/public/reddit/comments/'
+file = 'RC_2018-09.xz'
 
-# loop through comments file, find comments containing subreddit_id and write that line to a file
-for line in f:
-   if subreddit_id in line:
-       newf.write(line)
+infile = folder + file
+outfile = '../data/filtered/' + file + '_' + subreddit_id
 
-# be sure to close the files
-f.close()
-newf.close()
+reddit_corpus.filter_posts(subreddit_id, infile, outfile, 'xz')
+
 

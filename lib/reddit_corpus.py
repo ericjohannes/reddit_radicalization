@@ -17,20 +17,17 @@ def filter_posts(subreddit_id, inputfile, outputfile, filetype):
 	subreddit_id = id of subreddit in bae 36
 	inputfile = name of file you read from (from reddit corpus)
 	outputfile = name of file to which filtered comments are saved
+	filetype = use 'xz' if it's xz, anything else goes to default
 	"""
 	# should open subreddits file and create new file we append to
-	if filetype is '.xz':
-		f = lzma.open(inputfile, mode='rt')
+
+	if filetype is 'xz':
+		with lzma.open(inputfile, mode='rt') as infile, open(outputfile, 'a+') as outfile:
+			for line in infile:
+				if subreddit_id in line:
+					outfile.write(line)
 	else:
-		f = open(inputfile, 'r')
-	
-	newf = open(outputfile, 'a+')
-
-	# loop through comments file, find comments containing subreddit_id and write that line to a file
-	for line in f:
-	    if subreddit_id in line:
-	        newf.write(line)
-
-	# be sure to close the files
-	f.close()
-	newf.close()
+		with open(inputfile, 'r') as infile, open(outputfile, 'a+') as outfile:
+			for line in infile:
+				if subreddit_id in line:
+					outfile.write(line)
