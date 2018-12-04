@@ -1,11 +1,16 @@
 # split the data 
-import ../lib/reddit_corpus.py
+import sys
+# add my lib dir to the sys path
+sys.path.insert(0, '../lib/')
+
+import reddit_corpus.py
 import json
 import re
 import json
 import concurrent.futures
 import glob
 import bz2
+import lzma
 
 # r/the_Donald, r/Democrats, r/republican, r/libertarian, r/books
 the_donald = 't5_38unr'
@@ -24,8 +29,10 @@ indatadir = '/l/research/social-media-mining/public/reddit'
 commentdir = '/comments'
 submissionsdir = '/submissions'
 glob_end = '/RC_2017-*.bz2'
-glob_str = indatadir + commentdir + glob_end
+sub_glob_end = '/RS_2017-*'
 
+# glob_str = indatadir + commentdir + glob_end
+glob_str = indatadir + submissionsdir + sub_glob_end
 filenames = sorted(glob.glob(glob_str))
 
 def filter_subs(filename):
@@ -37,6 +44,22 @@ def filter_subs(filename):
 			if (test_json['subreddit_id'] in subreddit_ids):
 				outfile.write(line)
 
+def filter_subs_submisisons(filename):
+	match = re.search(r"(RC_2017-.{2})", filename)	
+	newfile = savedatadir + submissionsdir + '/filtered-' + match.group(1) + '.jsonlines'
+	if 'bz2' in filename:
+		with open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
+			for line in infile:
+				test_json = json.loads(line)
+				if (test_json['subreddit_id'] in subreddit_ids):
+					outfile.write(line)
+	else:
+		with open(newfile, 'a+') as outfile, lzma.open(filename, 'rt') as infile:
+			for line in infile:
+				test_json = json.loads(line)
+				if (test_json['subreddit_id'] in subreddit_ids):
+					outfile.write(line)
+
 def filter_subs_compressed(filename):
 	match = re.search(r"(RC_2017-.*)", filename)	
 	newfile = savedatadir + commentdir + '/filtered-' + match.group(1) + '.jsonlines'
@@ -47,7 +70,7 @@ def filter_subs_compressed(filename):
 				outfile.write(line)
 
 with concurrent.futures.ProcessPoolExecutor(max_workers=48) as executor:
-	results = list(executor.map(filter_subs, filenames))
+	results = list(executor.map(filter_subs_submisisons, filenames))
 
 # with concurrent.futures.ProcessPoolExecutor(max_workers=48) as executor:
 # 	results = list(executor.map(filter_subs_compressed, filenames))
