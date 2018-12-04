@@ -1,9 +1,9 @@
 # split the data 
-import sys
+# import sys
 # add my lib dir to the sys path
-sys.path.insert(0, '../lib/')
+# sys.path.insert(0, '../lib/')
 
-import reddit_corpus.py
+# import ../lib/reddit_corpus.py
 import json
 import re
 import json
@@ -36,7 +36,7 @@ glob_str = indatadir + submissionsdir + sub_glob_end
 filenames = sorted(glob.glob(glob_str))
 
 def filter_subs(filename):
-	match = re.search(r"(RC_2017-.{2})", filename)	
+	match = re.search(r"(RS_2017-.{2})", filename)	
 	newfile = savedatadir + commentdir + '/filtered-' + match.group(1) + '.jsonlines'
 	with open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
 		for line in infile:
@@ -45,7 +45,7 @@ def filter_subs(filename):
 				outfile.write(line)
 
 def filter_subs_submisisons(filename):
-	match = re.search(r"(RC_2017-.{2})", filename)	
+	match = re.search(r"(RS_2017-.{2})", filename)	
 	newfile = savedatadir + submissionsdir + '/filtered-' + match.group(1) + '.jsonlines'
 	if 'bz2' in filename:
 		with open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
