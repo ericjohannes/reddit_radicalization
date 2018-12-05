@@ -28,21 +28,33 @@ savedatadir = '/nobackup/ejblom/reddit'
 indatadir = '/l/research/social-media-mining/public/reddit'
 commentdir = '/comments'
 submissionsdir = '/submissions'
-glob_end = '/RC_2017-*.bz2'
-sub_glob_end = '/RS_2017-*'
+glob_end = '/RC_2017-*.'
+# sub_glob_end = '/RS_2017-*'
 
-# glob_str = indatadir + commentdir + glob_end
-glob_str = indatadir + submissionsdir + sub_glob_end
+glob_str = indatadir + commentdir + glob_end
+# glob_str = indatadir + submissionsdir + sub_glob_end
 filenames = sorted(glob.glob(glob_str))
 
-def filter_subs(filename):
-	match = re.search(r"(RS_2017-.{2})", filename)	
+# didn't catch decemeber 2017 because it was an xz, redoing that one
+redo = ['/l/research/social-media-mining/public/reddit/comments/RC_2017-12.xz']
+
+
+def filter_subs_comments(filename):
+	match = re.search(r"(RC_2017-.{2})", filename)	
 	newfile = savedatadir + commentdir + '/filtered-' + match.group(1) + '.jsonlines'
-	with open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
-		for line in infile:
-			test_json = json.loads(line)
-			if (test_json['subreddit_id'] in subreddit_ids):
-				outfile.write(line)
+	if 'bz2' in filename:
+		with open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
+			for line in infile:
+				test_json = json.loads(line)
+				if (test_json['subreddit_id'] in subreddit_ids):
+					outfile.write(line)
+	else:
+		with open(newfile, 'a+') as outfile, lzma.open(filename, 'rt') as infile:
+			for line in infile:
+				test_json = json.loads(line)
+				if (test_json['subreddit_id'] in subreddit_ids):
+					outfile.write(line)
+
 
 def filter_subs_submisisons(filename):
 	match = re.search(r"(RS_2017-.{2})", filename)	
@@ -60,17 +72,17 @@ def filter_subs_submisisons(filename):
 				if (test_json['subreddit_id'] in subreddit_ids):
 					outfile.write(line)
 
-def filter_subs_compressed(filename):
-	match = re.search(r"(RC_2017-.*)", filename)	
-	newfile = savedatadir + commentdir + '/filtered-' + match.group(1) + '.jsonlines'
-	with bz2.open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
-		for line in infile:
-			test_json = json.loads(line)
-			if (test_json['subreddit_id'] in subreddit_ids):
-				outfile.write(line)
+# def filter_subs_compressed(filename):
+# 	match = re.search(r"(RC_2017-.*)", filename)	
+# 	newfile = savedatadir + commentdir + '/filtered-' + match.group(1) + '.jsonlines'
+# 	with bz2.open(newfile, 'a+') as outfile, bz2.open(filename, 'rt') as infile:
+# 		for line in infile:
+# 			test_json = json.loads(line)
+# 			if (test_json['subreddit_id'] in subreddit_ids):
+# 				outfile.write(line)
 
 with concurrent.futures.ProcessPoolExecutor(max_workers=48) as executor:
-	results = list(executor.map(filter_subs_submisisons, filenames))
+	results = list(executor.map(filter_subs_comments, redo))
 
 # with concurrent.futures.ProcessPoolExecutor(max_workers=48) as executor:
 # 	results = list(executor.map(filter_subs_compressed, filenames))

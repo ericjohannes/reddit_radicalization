@@ -1,0 +1,34 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 175, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "scripts/split_data.py", line 52, in filter_subs_submisisons
+    for line in infile:
+  File "/l/python3/lib/python3.6/bz2.py", line 195, in read1
+    return self._buffer.read1(size)
+  File "/l/python3/lib/python3.6/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/l/python3/lib/python3.6/_compression.py", line 99, in read
+    raise EOFError("Compressed file ended before the "
+EOFError: Compressed file ended before the end-of-stream marker was reached
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "scripts/split_data.py", line 73, in <module>
+    results = list(executor.map(filter_subs_submisisons, filenames))
+  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 366, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 586, in result_iterator
+    yield fs.pop().result()
+  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+EOFError: Compressed file ended before the end-of-stream marker was reached

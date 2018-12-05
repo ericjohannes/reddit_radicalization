@@ -1,0 +1,15 @@
+I ran split_data.py on 1203
+on submissions, with if statement to account for xz and gz2
+got nohup.out-1203 from that
+there are 12 files
+not sure what happened. maybe didn't get all data?
+it said it reached the end of a compressed file before someting happend...
+maybe it got everything???
+
+day befor did same thing with 
+spli_data.py on 1202 on coments without xz and gz if statement
+I didn't get decemebr as a result because decemebr 2017 was saved as xz
+
+1204
+running split_data.py on 'redo' test file which is just dec 2017
+
