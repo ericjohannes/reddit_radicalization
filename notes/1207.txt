@@ -1,0 +1,32 @@
+
+1207
+am working to count posts with hate words
+i'm just counting posts if they contain one hateword
+1. because it's faster
+2. it's a reasonable measure of hatespeech use, the number or fraction of
+posts containing a hatespeech term
+3. tokenizing is hard. 
+
+running into a problem: short "hatespeech" terms pop up often
+if I don't tokenize
+
+i'll look at the list to se how common this might be
+
+I'm going to tokenize the body of the post
+
+I also went through listof terms
+cut out ones with spaces
+first, I can't use those if I tokenize the body of the post
+most of those are redundant because one of the terms is on its own too
+I added 'fag' which wasn't in there. faggy and faggot were
+seemed obviousS
+saving as hatebase_vocab_woinnocent_eng_ebedits.csv
+there are 704 terms now
+
+
+>>>test_hate(post_dict, terms_list)
+'ho'
+
+going to run my code
+it seems to work
+nohup python3 count_hatespeech.py
