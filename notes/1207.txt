@@ -30,3 +30,11 @@ there are 704 terms now
 going to run my code
 it seems to work
 nohup python3 count_hatespeech.py
+
+doesn't work
+there is no body key in submissions, there is self text
+made it so submissions use 'selftext' not 'body'
+that should work...
+also added error handling for key errors in case for some reason 
+the keys I use don't work, the program doesn't break
+instead, it prints an error

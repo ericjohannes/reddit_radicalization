@@ -81,13 +81,23 @@ def find_hatespeech(filename):
 		# create a dict for each line. it will be a row in a df
 		for line in workingfile:
 			post_dict = json.loads(line, strict=False)
-			post_row = {'subreddit_id': post_dict['subreddit_id'], 'author': post_dict['author'], 'month': datetime.datetime.utcfromtimestamp(post_dict['created_utc']).month, 'post_count': 1,'hate_post_count': 0}
-			
 			try:
-				tokens = tokenize(post_dict['body'], lowercase=True)
+				post_row = {'subreddit_id': post_dict['subreddit_id'], 'author': post_dict['author'], 'month': datetime.datetime.utcfromtimestamp(post_dict['created_utc']).month, 'post_count': 1,'hate_post_count': 0}
 			except KeyError:
-				print('error')
+				print('couldn't init post row)
 				print(post_dict)
+				continue # can't do anything with it
+			# try next thing
+			try:
+				if 'RC' in filename:
+					tokens = tokenize(post_dict['body'], lowercase=True)
+				else:
+					tokens = tokenize(post_dict['selftext'], lowercase=True)
+			except KeyError:
+				print('error getting post text')
+				print(post_dict)
+				continue # can't do anything with it
+			# go on
 			if (test_hate(set(tokens), terms_set)):
 				post_row['hate_post_count'] = 1
 			hate_post_counts_list.append(post_row)
