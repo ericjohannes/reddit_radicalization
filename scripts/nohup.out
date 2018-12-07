@@ -1,214 +1,74 @@
 start
-2018-12-07 16:02:39.423532
+2018-12-07 16:42:44.114650
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-10.jsonlines
+2018-12-07 16:42:53.446787
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-09.jsonlines
+2018-12-07 16:42:53.213871
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-11.jsonlines
+2018-12-07 16:42:53.473801
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-12.jsonlines
+2018-12-07 16:42:52.324975
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-04.jsonlines
+2018-12-07 16:42:55.085601
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-08.jsonlines
+2018-12-07 16:42:55.699804
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-07.jsonlines
+2018-12-07 16:42:55.418655
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-06.jsonlines
+2018-12-07 16:42:57.394699
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-03.jsonlines
+2018-12-07 16:42:58.187359
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-05.jsonlines
+2018-12-07 16:42:56.626790
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-02.jsonlines
+2018-12-07 16:42:58.372949
+done
+/nobackup/ejblom/reddit/submissions/filtered-RS_2017-01.jsonlines
+2018-12-07 16:43:00.200918
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-06.jsonlines
-2018-12-07 16:03:05.618407
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-09.jsonlines
-2018-12-07 16:03:33.991403
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-11.jsonlines
-2018-12-07 16:03:39.873123
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-03.jsonlines
-2018-12-07 16:03:48.181684
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-05.jsonlines
-2018-12-07 16:03:44.086365
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-10.jsonlines
-2018-12-07 16:03:37.026910
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-07.jsonlines
-2018-12-07 16:03:39.167405
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-12.jsonlines
-2018-12-07 16:03:34.881519
+2018-12-07 16:43:15.454313
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-08.jsonlines
-2018-12-07 16:03:38.724175
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-04.jsonlines
-2018-12-07 16:03:43.307394
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-02.jsonlines
-2018-12-07 16:03:54.555665
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-01.jsonlines
-2018-12-07 16:03:58.852980
-concurrent.futures.process._RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 175, in _process_worker
-    r = call_item.fn(*call_item.args, **call_item.kwargs)
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in _process_chunk
-    return [fn(*args) for args in chunk]
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in <listcomp>
-    return [fn(*args) for args in chunk]
-  File "count_hatespeech.py", line 85, in find_hatespeech
-    tokens = tokenize(post_dict['body'], lowercase=True)
-KeyError: 'body'
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "count_hatespeech.py", line 99, in <module>
-    results = list(executor.map(find_hatespeech, filenames))
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 366, in _chain_from_iterable_of_lists
-    for element in iterable:
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 586, in result_iterator
-    yield fs.pop().result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 425, in result
-    return self.__get_result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
-    raise self._exception
-KeyError: 'body'
-start
-2018-12-07 16:09:50.382537
-They're really doubling down on stupid.
-Liberal cunt
-WHICH ONE OF YOU MADMEN POSTED THE SNL GIF IN THE TRUMP MARCH SUB?!? HAHAHA
-
-"Trump is paying millions to scrub this" 
-
-How about Trump was paid millions to do it, it's part of a wonderful 3 hour winning Video 'Never Come Down". Even the Top post is someone catching on to it. 
-
-http://i.magaimg.net/img/4zt.png
-But it wasn't TRUE communism. 
-
-/s
-Yeah, that's the way it goes. Sorry compadre.
-Fun fact: We were still running most (if not all) cell networks as analog back in 2001. You can get much better range with analog cellular signals and analog is not an all or nothing proposition like digita (you can still make a connection with a marginal signal on analog compared). I remember when the switchover started and everything started being done in digital on cell networks. Places you previously could get a signal became dead zones. 
-this is a bit reductive. there are plenty of both types on both sides...
-
-&gt;off the reservation
-
-I have never heard this term before, did Hillary use it? I could see how it would piss off tribal people.
-On the other yand you could say it's capitalism at its finest. If people are buying why not sell it?
-you're really ignorant of history then.  like grotesquely ignorant. 
-##IMAGINE IF THE TRUCK HAD A HIGH-CAPACITY FUEL MAGAZINE
-The anti-circumcision movement has been called anti-semitic, the call to end honor culture has been called racist and the question about depression-related outcomes of same sex parrents has been called homophobic. Al those things are umbrella terms, sometimes used properly but often used in an ill-defined manner in trying to stifle discourse. 
-
-Flat earth society is a satire, quite brilliant.
-concurrent.futures.process._RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 175, in _process_worker
-    r = call_item.fn(*call_item.args, **call_item.kwargs)
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in _process_chunk
-    return [fn(*args) for args in chunk]
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in <listcomp>
-    return [fn(*args) for args in chunk]
-  File "count_hatespeech.py", line 87, in find_hatespeech
-    if (test_hate(set(tokens), terms_set)):
-NameError: name 'tokens' is not defined
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "count_hatespeech.py", line 100, in <module>
-    results = list(executor.map(find_hatespeech, filenames))
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 366, in _chain_from_iterable_of_lists
-    for element in iterable:
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 586, in result_iterator
-    yield fs.pop().result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 432, in result
-    return self.__get_result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
-    raise self._exception
-NameError: name 'tokens' is not defined
-
-trying again with try and except
-
-start
-2018-12-07 16:15:00.520664
-error
-{'author_flair_css_class': None, 'suggested_sort': None, 'score': 8, 'media': {'oembed': {'html': '&lt;iframe width="600" height="338" src="https://www.youtube.com/embed/382njADcWvE?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;', 'title': 'EPIC HUNGARIAN TRUCKER RUNS THE CALAIS MIGRANT GAUNTLET', 'height': 338, 'thumbnail_width': 480, 'type': 'video', 'provider_url': 'https://www.youtube.com/', 'thumbnail_url': 'https://i.ytimg.com/vi/382njADcWvE/hqdefault.jpg', 'provider_name': 'YouTube', 'author_url': 'https://www.youtube.com/user/Kittensinurface', 'thumbnail_height': 360, 'version': '1.0', 'width': 600, 'author_name': 'Kittensinurface'}, 'type': 'youtube.com'}, 'selftext': '[deleted]', 'archived': False, 'permalink': '/r/The_Donald/comments/5lcgm4/dealing_with_calais_as_a_pissedoff_and_vocal/', 'contest_mode': False, 'subreddit_id': 't5_38unr', 'url': 'https://www.youtube.com/watch?v=382njADcWvE', 'subreddit': 'The_Donald', 'media_embed': {'width': 600, 'height': 338, 'content': '&lt;iframe width="600" height="338" src="https://www.youtube.com/embed/382njADcWvE?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;', 'scrolling': False}, 'brand_safe': False, 'over_18': False, 'gilded': 0, 'author_flair_text': None, 'edited': False, 'hide_score': False, 'link_flair_text': None, 'is_self': False, 'spoiler': False, 'locked': False, 'thumbnail': 'default', 'created_utc': 1483228827, 'distinguished': None, 'link_flair_css_class': None, 'author': '[deleted]', 'title': 'Dealing with Calais as a pissed-off and vocal Hungarian trucker. I think this needs a repasta. WTF, Europe?! ~14 mins, worth it for most of them.', 'secure_media_embed': {'content': '&lt;iframe width="600" height="338" src="https://www.youtube.com/embed/382njADcWvE?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;', 'height': 338, 'scrolling': False, 'width': 600}, 'secure_media': {'type': 'youtube.com', 'oembed': {'author_url': 'https://www.youtube.com/user/Kittensinurface', 'thumbnail_height': 360, 'thumbnail_url': 'https://i.ytimg.com/vi/382njADcWvE/hqdefault.jpg', 'provider_name': 'YouTube', 'author_name': 'Kittensinurface', 'version': '1.0', 'width': 600, 'height': 338, 'thumbnail_width': 480, 'html': '&lt;iframe width="600" height="338" src="https://www.youtube.com/embed/382njADcWvE?feature=oembed" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;', 'title': 'EPIC HUNGARIAN TRUCKER RUNS THE CALAIS MIGRANT GAUNTLET', 'type': 'video', 'provider_url': 'https://www.youtube.com/'}}, 'domain': 'youtube.com', 'num_comments': 2, 'id': '5lcgm4', 'quarantine': False, 'stickied': False, 'hidden': False, 'retrieved_on': 1489388028}
-error
-{'created_utc': 1488326403, 'archived': False, 'media': None, 'secure_media_embed': {}, 'contest_mode': False, 'retrieved_on': 1489598541, 'domain': 'self.The_Donald', 'brand_safe': False, 'secure_media': None, 'distinguished': None, 'locked': False, 'hidden': False, 'subreddit': 'The_Donald', 'author': 'MiserySnake', 'selftext': "I filter out most subs that I see have been cucked but every now and then a new one shows up that I missed. I have noticed a pattern that I think helps me identify shariablue content. I always find that the comments are ALL anti Trump (obviously) but also I find that the post has it's comment locked after an hour. It is like they just wanted to get in their PAID FOR anti Trump comments so they can make it look like everyone feels that way and then they lock it down before anyone can get in and be pro-trump. I just saw one that claims ALL Military personnel cant stand Trump. Funny everyone I know in the Military seems so proud that he is the commander in chief.  I went to comment but low and behold it was locked. I looked at the first comment and the last comment and there was only a 1 hour difference. ", 'score': 19, 'is_self': True, 'edited': 1488327120, 'link_flair_css_class': None, 'id': '5wrk5w', 'permalink': '/r/The_Donald/comments/5wrk5w/i_am_starting_to_notice_something_about/', 'media_embed': {}, 'title': 'I am starting to notice something about shariablue posts....', 'author_flair_css_class': 'california', 'hide_score': False, 'stickied': False, 'num_comments': 1, 'gilded': 0, 'author_flair_text': 'CA', 'url': 'https://www.reddit.com/r/The_Donald/comments/5wrk5w/i_am_starting_to_notice_something_about/', 'link_flair_text': None, 'over_18': False, 'thumbnail': 'self', 'spoiler': False, 'subreddit_id': 't5_38unr', 'quarantine': False, 'suggested_sort': None}
-error
-{'gilded': 0, 'media_embed': {}, 'brand_safe': False, 'post_hint': 'image', 'over_18': False, 'is_self': False, 'link_flair_text': None, 'hide_score': False, 'preview': {'enabled': True, 'images': [{'resolutions': [{'height': 192, 'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=3b21b794adcc0c8b4939101a31b00c1d', 'width': 108}, {'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=16be7c1841d6a1d52cb1c47e246d0e9a', 'width': 216, 'height': 384}, {'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=85aeb88ef97d68f7993f2b05f61b0e91', 'width': 320, 'height': 568}, {'width': 640, 'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=c79186216e5934fbf338fd5e6849d177', 'height': 1137}, {'height': 1706, 'width': 960, 'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=d49c358d4b80ee112762a0394e9d5463'}, {'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=95b892fcbee36c7de733041aace8dee8', 'width': 1080, 'height': 1920}], 'source': {'url': 'https://i.redditmedia.com/83FXDj3QxL6u_iLdHEcmkDORx9Gpgb0pAajhRjv7NFk.png?s=b96adf8b333724005b12294e65efb862', 'width': 1242, 'height': 2208}, 'id': 'eVMj_Xg4CtNTzWFmqazIxuOmsKTvq7w_cz3q00K32s8', 'variants': {}}]}, 'edited': False, 'author_flair_text': 'USA', 'media': None, 'suggested_sort': None, 'score': 6, 'author_flair_css_class': 'MURICA', 'subreddit': 'The_Donald', 'url': 'http://i.imgur.com/5PVSgBN.png', 'contest_mode': False, 'subreddit_id': 't5_38unr', 'permalink': '/r/The_Donald/comments/5rc1fm/the_only_appropriate_response/', 'selftext': '', 'archived': False, 'id': '5rc1fm', 'num_comments': 0, 'domain': 'i.imgur.com', 'secure_media': None, 'title': 'The only appropriate response', 'secure_media_embed': {}, 'author': 'Reddegeddon', 'retrieved_on': 1489495262, 'hidden': False, 'stickied': False, 'quarantine': False, 'distinguished': None, 'created_utc': 1485907205, 'thumbnail': 'https://b.thumbs.redditmedia.com/_bJrMJtfrpfmAgvaWsO5LWb9ufMeCv7s5uNQuqF7njc.jpg', 'spoiler': False, 'locked': False, 'link_flair_css_class': None}
-error
-{'approved_at_utc': None, 'archived': False, 'author': 'sum_devil', 'author_flair_css_class': 'kekistan', 'author_flair_text': 'KEK', 'banned_at_utc': None, 'brand_safe': False, 'can_mod_post': False, 'contest_mode': False, 'created_utc': 1496275201, 'distinguished': None, 'domain': 'imgur.com', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '6ej162', 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 0, 'over_18': False, 'permalink': '/r/The_Donald/comments/6ej162/their_new_tour_dates_just_released_so_awesome_of/', 'post_hint': 'link', 'preview': {'enabled': False, 'images': [{'id': '9-5Y2i6nUqhA0chWJfYcQonlcd74s8fpCUFS4OcXaKk', 'resolutions': [{'height': 162, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=547cd0548399d3a9023c0ee6466c3a4a', 'width': 108}, {'height': 324, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=9d2a08d7278b1f7a16cb6f0d2d53d106', 'width': 216}, {'height': 480, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=22057b28a28f520de914fab1211dd856', 'width': 320}, {'height': 960, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=f1d33da56500052bad312e43aecfb340', 'width': 640}, {'height': 1440, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=d4f01acc76c926885ee17bd450c18368', 'width': 960}, {'height': 1620, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=f9b1052f2366c0ef80187ab457282c13', 'width': 1080}], 'source': {'height': 2586, 'url': 'https://i.redditmedia.com/n38m0TFoCZby9IWyFj23bw9lqBF9djFvN8Qq3yWfTpU.jpg?s=93bd621315eb7a9be308e738567a3970', 'width': 1724}, 'variants': {}}]}, 'quarantine': False, 'retrieved_on': 1500090551, 'score': 5, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'https://b.thumbs.redditmedia.com/0Wol5PT0LHec9_I1I7XMngPmGXkiuFlZ4jMa6KVJNLc.jpg', 'thumbnail_height': 140, 'thumbnail_width': 140, 'title': 'Their new tour dates just released!! So awesome of them. Super excited to see how it goes!', 'url': 'https://imgur.com/gallery/eJIb2', 'view_count': None}
-error
-{'edited': False, 'media_embed': {}, 'spoiler': False, 'distinguished': None, 'selftext': 'I just subscribed, so please dont nuke my account mods.\n\nI want to see these neo liberal, corporate sellout, red scaring fucks burn. Is this actually a turning point to destroy their Obama is uber innocent narrative? Someone said that Maddow actually mentioned that Trump may be innocent and now im giddy as hell. Can we have a conversation about this development?', 'permalink': '/r/The_Donald/comments/62p853/actual_classical_liberal_here_no_bullshit_what_is/', 'thumbnail': 'self', 'gilded': 0, 'contest_mode': False, 'retrieved_on': 1492477153, 'is_self': True, 'archived': False, 'secure_media_embed': {}, 'score': 203, 'hidden': False, 'media': None, 'subreddit_id': 't5_38unr', 'hide_score': False, 'author_flair_css_class': None, 'author': 'The-Punissuer', 'id': '62p853', 'subreddit': 'The_Donald', 'domain': 'self.The_Donald', 'title': 'Actual Classical Liberal here. No bullshit, what is going on with Schiff?', 'locked': False, 'author_flair_text': None, 'over_18': False, 'created_utc': 1491004820, 'num_comments': 55, 'stickied': False, 'secure_media': None, 'brand_safe': False, 'url': 'https://www.reddit.com/r/The_Donald/comments/62p853/actual_classical_liberal_here_no_bullshit_what_is/', 'link_flair_css_class': None, 'quarantine': False, 'link_flair_text': None, 'suggested_sort': None}
-error
-{'archived': False, 'author': 'CUCKEWE', 'author_flair_css_class': 'kekistan', 'author_flair_text': 'KEK', 'brand_safe': False, 'contest_mode': False, 'created_utc': 1504224004, 'distinguished': None, 'domain': 'dailycaller.com', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '6xauyc', 'is_crosspostable': False, 'is_reddit_media_domain': False, 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 1, 'num_crossposts': 0, 'over_18': False, 'parent_whitelist_status': 'promo_specified', 'permalink': '/r/The_Donald/comments/6xauyc/this_msnbc_guest_is_way_past_blaming_climate/', 'pinned': False, 'post_hint': 'link', 'preview': {'enabled': False, 'images': [{'id': 'r6OySzhTplxVLAfle7L3ELOiOA1Kg_q2_CWLbci8lIs', 'resolutions': [{'height': 46, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=d6b8696cfa818cf17ac80263fcf4d628', 'width': 108}, {'height': 92, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=dbe88396ff13e4d2bc0e58e1f8f667cd', 'width': 216}, {'height': 137, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=d4f057585040e3a22f34839d729e4413', 'width': 320}, {'height': 275, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=a58895ba8577a30ad6fd21fa06b8245b', 'width': 640}, {'height': 412, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=c2eccebfd09464beda2e80a3c5809fd1', 'width': 960}, {'height': 464, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=3394bf782e2291533f5b59f78e1a0cb3', 'width': 1080}], 'source': {'height': 516, 'url': 'https://i.redditmedia.com/pIPBdXgTOY08wn1ZzTCEn3MOytPHjiCDFgAp_gHcZLI.jpg?s=d5cddf35f32c58e961c0a46df3f0e337', 'width': 1200}, 'variants': {}}]}, 'retrieved_on': 1507285925, 'score': 12, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'https://b.thumbs.redditmedia.com/taqeHs7v0f0ReR67s9yB-Ur-YKRbqhgtGUGxFgibxYk.jpg', 'thumbnail_height': 60, 'thumbnail_width': 140, 'title': 'This MSNBC Guest Is Way Past Blaming Climate Change For Hurricane Harvey', 'url': 'http://dailycaller.com/2017/08/31/msnbc-guest-hurricane-harvey-a-man-made-disaster-video/', 'whitelist_status': 'promo_specified'}
-error
-{'archived': False, 'author': 'vulaivcu0001', 'author_flair_css_class': None, 'author_flair_text': None, 'brand_safe': False, 'contest_mode': False, 'created_utc': 1501545625, 'distinguished': None, 'domain': 'thietkewebbatdongsan102.wordpress.com', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '6qsiih', 'is_crosspostable': False, 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 0, 'num_crossposts': 0, 'over_18': False, 'parent_whitelist_status': 'no_ads', 'permalink': '/r/The_Donald/comments/6qsiih/thiết_kế_website_nội_thất_giá_rẻ_chuyên_nghiệp/', 'retrieved_on': 1504628548, 'score': 1, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'default', 'thumbnail_height': 78, 'thumbnail_width': 140, 'title': 'Thiết kế website nội thất giá rẻ chuyên nghiệp tại HN', 'url': 'https://thietkewebbatdongsan102.wordpress.com/category/thiet-ke-website-noi-that/', 'whitelist_status': 'no_ads'}
-error
-{'archived': False, 'author': '[deleted]', 'author_flair_css_class': None, 'author_flair_text': None, 'brand_safe': False, 'contest_mode': False, 'created_utc': 1493596804, 'distinguished': None, 'domain': 'foxnews.com', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '68irhm', 'is_self': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 0, 'over_18': False, 'permalink': '/r/The_Donald/comments/68irhm/report_sebastian_gorka_to_accept_role_outside/', 'quarantine': False, 'retrieved_on': 1494652139, 'score': 2, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '[deleted]', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'default', 'thumbnail_height': 78, 'thumbnail_width': 140, 'title': 'Report: Sebastian Gorka to accept role outside White House', 'url': 'http://www.foxnews.com/politics/2017/04/30/report-sebastian-gorka-to-accept-role-outside-white-house.html', 'view_count': None}
-error
-{'approved_at_utc': None, 'archived': False, 'author': '[deleted]', 'author_flair_css_class': None, 'author_flair_text': None, 'banned_at_utc': None, 'brand_safe': False, 'can_mod_post': False, 'contest_mode': False, 'created_utc': 1498867212, 'distinguished': None, 'domain': 'i.redd.it', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '6kjsyn', 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 0, 'over_18': False, 'permalink': '/r/The_Donald/comments/6kjsyn/new_years_goals/', 'quarantine': False, 'retrieved_on': 1502054494, 'score': 20, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '[deleted]', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'default', 'thumbnail_height': 95, 'thumbnail_width': 140, 'title': 'New Years goals', 'url': 'https://i.redd.it/wesnry49gv6z.jpg', 'view_count': None}
-error
-{'archived': False, 'author': 'littleirishmaid', 'author_flair_css_class': 'MURICA', 'author_flair_text': 'USA', 'brand_safe': False, 'contest_mode': False, 'created_utc': 1506816033, 'distinguished': None, 'domain': 'dailycaller.com', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '73igbn', 'is_crosspostable': False, 'is_reddit_media_domain': False, 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 4, 'num_crossposts': 0, 'over_18': False, 'parent_whitelist_status': 'promo_specified', 'permalink': '/r/The_Donald/comments/73igbn/fema_chief_defends_trump_tweets_dings_san_juan/', 'pinned': False, 'post_hint': 'link', 'preview': {'enabled': False, 'images': [{'id': 'Kl6p3QBWf05_0boDPPh3DrL32gNB-nsNr54XGaFGK8c', 'resolutions': [{'height': 46, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=439cabaf7bbd7b156dcf749e0c423bc8', 'width': 108}, {'height': 93, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=95dde5c91aa20c9ec3cfd5968acfc3b6', 'width': 216}, {'height': 137, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=dd36f311e5e4917fa723c1bff5bb78e4', 'width': 320}, {'height': 275, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=23a4e9f2a320ab1b6e079657ad56fb79', 'width': 640}, {'height': 413, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=d1b28f9fed2cddd657bfa8e685e2e45f', 'width': 960}], 'source': {'height': 447, 'url': 'https://i.redditmedia.com/_Vj06G4GXG9BvHcZpHAqxZKqRoY4CZdOzZJifXtQExs.jpg?s=a15c095fe781e6901cb6bd9b59945a43', 'width': 1037}, 'variants': {}}]}, 'retrieved_on': 1510382445, 'score': 69, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'suggested_sort': None, 'thumbnail': 'https://b.thumbs.redditmedia.com/lUudyUqrDGahL3r3FLXMwDcfip4uEPBNsBBFeQdnM3w.jpg', 'thumbnail_height': 60, 'thumbnail_width': 140, 'title': 'FEMA Chief Defends Trump Tweets, Dings San Juan Mayor [VIDEO]', 'url': 'http://dailycaller.com/2017/09/30/fema-chief-defends-trump-tweets-dings-san-juan-mayor-video/', 'whitelist_status': 'promo_specified'}
-error
-{'archived': False, 'author': '[deleted]', 'author_flair_css_class': None, 'author_flair_text': None, 'brand_safe': False, 'contest_mode': False, 'created_utc': 1509494407, 'distinguished': None, 'domain': 'i.redd.it', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '79zysp', 'is_crosspostable': False, 'is_reddit_media_domain': True, 'is_self': False, 'is_video': False, 'link_flair_css_class': None, 'link_flair_text': None, 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 1, 'num_crossposts': 0, 'over_18': False, 'parent_whitelist_status': 'promo_specified', 'permalink': '/r/The_Donald/comments/79zysp/im_talkin_about_trump/', 'pinned': False, 'post_hint': 'image', 'preview': {'enabled': True, 'images': [{'id': '5xeWlrCWxuSA_6-ggLQmvFiLmOGqjzUiEeTkgmUz0Us', 'resolutions': [{'height': 92, 'url': 'https://i.redditmedia.com/g4CJSPmpVMm-h_nsBCHkG2mF4Su03V0wbmEYSKW-9Os.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=e0ad8d56a9d7a1444d063abc4e68aeb5', 'width': 108}, {'height': 185, 'url': 'https://i.redditmedia.com/g4CJSPmpVMm-h_nsBCHkG2mF4Su03V0wbmEYSKW-9Os.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=bec0f9b398fd023afc02d475d7ed0afd', 'width': 216}, {'height': 275, 'url': 'https://i.redditmedia.com/g4CJSPmpVMm-h_nsBCHkG2mF4Su03V0wbmEYSKW-9Os.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=998fb52d3218bb1c0f7df39a49d8532b', 'width': 320}, {'height': 550, 'url': 'https://i.redditmedia.com/g4CJSPmpVMm-h_nsBCHkG2mF4Su03V0wbmEYSKW-9Os.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=30d47cdb67866d8c34ee63f36398b54b', 'width': 640}], 'source': {'height': 661, 'url': 'https://i.redditmedia.com/g4CJSPmpVMm-h_nsBCHkG2mF4Su03V0wbmEYSKW-9Os.jpg?s=82c93d2386689029ef59277895fd79af', 'width': 768}, 'variants': {}}]}, 'retrieved_on': 1512200406, 'score': 11, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'subreddit_type': 'public', 'suggested_sort': None, 'thumbnail': 'https://a.thumbs.redditmedia.com/j-R807sXx37tvkgX-MJ4ZD02BdNJ3_zYXkZUsXwMc-8.jpg', 'thumbnail_height': 120, 'thumbnail_width': 140, 'title': 'I’m talkin’ about Trump', 'url': 'https://i.redd.it/f57x068ezoky.jpg', 'whitelist_status': 'promo_specified'}
-error
-{'archived': False, 'author': 'shkynet', 'author_flair_css_class': 'MURICA', 'author_flair_text': 'MAGA', 'brand_safe': False, 'contest_mode': False, 'created_utc': 1512086411, 'distinguished': None, 'domain': 'i.magaimg.net', 'edited': False, 'gilded': 0, 'hidden': False, 'hide_score': False, 'id': '7gqvdh', 'is_crosspostable': False, 'is_reddit_media_domain': False, 'is_self': False, 'is_video': False, 'link_flair_css_class': 'america', 'link_flair_text': 'GOD-EMPEROR', 'locked': False, 'media': None, 'media_embed': {}, 'num_comments': 15, 'num_crossposts': 0, 'over_18': False, 'parent_whitelist_status': 'promo_specified', 'permalink': '/r/The_Donald/comments/7gqvdh/djt_the_art_of_the_shitpost/', 'pinned': False, 'post_hint': 'image', 'preview': {'enabled': True, 'images': [{'id': 'RHCHndMWi2GpRUZ0m-3xWxej0Od0AGgssSsrVWMIqb4', 'resolutions': [{'height': 166, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=bb21dc68a8086597004daf09b4456fc3', 'width': 108}, {'height': 332, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=2774f40a5fd1021347ec1bfe6577927e', 'width': 216}, {'height': 493, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=799c26e45f501cfa99ec1c6da24eca75', 'width': 320}, {'height': 986, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=b8ca89863eb7076b795a5dc902c38065', 'width': 640}, {'height': 1479, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=666cf09fd486c52147c2c285453b3282', 'width': 960}, {'height': 1664, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=4b23fd818d75700bbb9a96d845e1c40c', 'width': 1080}], 'source': {'height': 5272, 'url': 'https://i.redditmedia.com/gjdZTjDZWkyno4mleJWFkLxoaZTKsVN8YdxTMOxsrUY.jpg?s=b630babcc89942a446674311f2450dc9', 'width': 3420}, 'variants': {}}]}, 'retrieved_on': 1512329914, 'score': 1087, 'secure_media': None, 'secure_media_embed': {}, 'selftext': '', 'spoiler': False, 'stickied': False, 'subreddit': 'The_Donald', 'subreddit_id': 't5_38unr', 'subreddit_type': 'public', 'suggested_sort': None, 'thumbnail': 'https://b.thumbs.redditmedia.com/mrNwKzOuOngw--F1NoIDBWi-YAcaGQQqw5JJgL-uN_M.jpg', 'thumbnail_height': 140, 'thumbnail_width': 140, 'title': 'DJT: The Art of the Shitpost', 'url': 'http://i.magaimg.net/img/200m.jpg', 'whitelist_status': 'promo_specified'}
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-06.jsonlines
-2018-12-07 16:15:29.181515
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-08.jsonlines
-2018-12-07 16:15:56.988732
+2018-12-07 16:43:47.927588
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-07.jsonlines
-2018-12-07 16:16:08.193009
+2018-12-07 16:43:50.450228
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-09.jsonlines
-2018-12-07 16:15:53.243241
+2018-12-07 16:43:41.592522
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-12.jsonlines
-2018-12-07 16:16:01.350279
+2018-12-07 16:43:42.598681
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-11.jsonlines
-2018-12-07 16:16:04.356896
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-10.jsonlines
-2018-12-07 16:16:06.477613
+2018-12-07 16:43:45.687892
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-05.jsonlines
-2018-12-07 16:16:11.074906
+2018-12-07 16:43:49.201277
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-04.jsonlines
-2018-12-07 16:16:08.207128
+2018-12-07 16:43:51.471028
 done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-01.jsonlines
-2018-12-07 16:16:26.287440
-done
-/nobackup/ejblom/reddit/comments/filtered-RC_2017-02.jsonlines
-2018-12-07 16:16:22.862713
+/nobackup/ejblom/reddit/comments/filtered-RC_2017-10.jsonlines
+2018-12-07 16:43:50.182528
 done
 /nobackup/ejblom/reddit/comments/filtered-RC_2017-03.jsonlines
-2018-12-07 16:16:13.560885
-concurrent.futures.process._RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 175, in _process_worker
-    r = call_item.fn(*call_item.args, **call_item.kwargs)
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in _process_chunk
-    return [fn(*args) for args in chunk]
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 153, in <listcomp>
-    return [fn(*args) for args in chunk]
-  File "count_hatespeech.py", line 91, in find_hatespeech
-    if (test_hate(set(tokens), terms_set)):
-UnboundLocalError: local variable 'tokens' referenced before assignment
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "count_hatespeech.py", line 104, in <module>
-    results = list(executor.map(find_hatespeech, filenames))
-  File "/l/python3/lib/python3.6/concurrent/futures/process.py", line 366, in _chain_from_iterable_of_lists
-    for element in iterable:
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 586, in result_iterator
-    yield fs.pop().result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 425, in result
-    return self.__get_result()
-  File "/l/python3/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
-    raise self._exception
-UnboundLocalError: local variable 'tokens' referenced before assignment
+2018-12-07 16:43:54.881675
+done
+/nobackup/ejblom/reddit/comments/filtered-RC_2017-02.jsonlines
+2018-12-07 16:44:05.459907
+done
+/nobackup/ejblom/reddit/comments/filtered-RC_2017-01.jsonlines
+2018-12-07 16:44:08.233750

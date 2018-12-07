@@ -84,7 +84,7 @@ def find_hatespeech(filename):
 			try:
 				post_row = {'subreddit_id': post_dict['subreddit_id'], 'author': post_dict['author'], 'month': datetime.datetime.utcfromtimestamp(post_dict['created_utc']).month, 'post_count': 1,'hate_post_count': 0}
 			except KeyError:
-				print('couldn't init post row)
+				print("could not init post row")
 				print(post_dict)
 				continue # can't do anything with it
 			# try next thing

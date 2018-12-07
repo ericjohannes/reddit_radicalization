@@ -38,3 +38,9 @@ that should work...
 also added error handling for key errors in case for some reason 
 the keys I use don't work, the program doesn't break
 instead, it prints an error
+
+it all executed
+results in nohup.out look correcct
+problem is no hatespeech was found
+i'll try it with a test list
+
